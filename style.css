@@ -1,0 +1,30 @@
+body {
+    margin: 0px;
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+
+}
+
+h1 {
+    font-family: 'Mountains of Christmas', serif;
+    color: red;
+}
+
+.tree {
+    mix-blend-mode: multiply;
+    border: none;
+    outline: inherit;
+    margin-top: 2%;
+    background: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Mountains of Christmas', serif;
+    color: red;
+    font-size: 40px;
+}
